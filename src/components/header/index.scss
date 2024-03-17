@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    
+}
+.geral {
+    background-color: #fff;
+ 
+}
+
+.block2{
+   display: flex;
+   justify-content: space-between;
+}
+
+.menu{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+
+.menu ul li {
+    list-style: none; /* Remove default list-style */
+    text-orientation: sideways-right;
+    transform: rotate(270deg);
+    margin: 60px 0px; 
+    width: 76px;
+    padding: 8px 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.text{
+  text-align: center;
+  width: 100%;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text h1 {
+    font-weight: 100;
+}
+
+
+.logo{
+    padding: 56px 88px;
+}

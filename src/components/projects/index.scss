@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@200..800&display=swap');
+
+.title-2{
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    justify-content: end;
+}
+
+.title-2 h2 {
+    border-bottom: 10px solid black;
+}
+.project-card{
+    /*display: flex;
+    padding: 10px 90px;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}

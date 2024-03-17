@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@200..800&display=swap');
+
+.title-3{
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    justify-content: start;
+}
+
+.title-3 h2 {
+    border-bottom: 10px solid black;
+}
+
+
+.bio{
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 30px 330px;
+}
+
+.bio h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+.bio p {
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    padding: 10px 220px 0px 0px;
+}
+
+.bio-icons{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    font-family: "Manrope", sans-serif;
+}
+
+.bio-icons h3{
+    padding-top: 10px;
+}
+.icons-b{
+    padding: 0px 10px;
+}
+
+
+.card-box{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Manrope", sans-serif;
+    padding: 10px 78px;
+    
+}
+.box-card{
+    display: flex;
+    border: 1px solid #cfcfcF;
+    border-radius: 6px;
+    align-items: center;
+    padding: 10px;
+}
+.box{
+    padding: 0px 10px 0px 0px;
+}
+.border{
+    border-right: 2px #cfcfcF solid;
+    height: 10px;
+    display: block;
+    height: 40px;
+
+}
+.box-text{
+    padding: 0px 10px;
+}
+
+.box-text h2{
+    font-weight: 800;
+    font-size: 16px;
+}
+.box-text p{
+    font-weight: 300;
+    font-size: 10px;
+}
+
+
+.card-experience-block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.card-experience-container{
+    font-family: "Manrope", sans-serif;
+    border-left: 2px solid #cfcfcF;
+    padding-left: 18px;
+}
+.card-experience-container span{
+    /*border-right: 2px #cfcfcF solid;
+    height: 10px;
+    display: block;
+    height: 40px;*/
+
+}
+.card-experience-text{
+
+}
+.card-experience-text h3{
+    font-weight: 800;
+    font-size: 16px;
+}
+.card-experience-text p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #cfcfcF;
+}
+
+
+.footer-icons{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo img{
+   padding: 50px 30px;
+}
