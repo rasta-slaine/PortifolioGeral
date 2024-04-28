@@ -3,12 +3,12 @@
 import "./index.scss"
 
 
-function Card({img,title,text}){
+function Card({img,title,text,link}){
 
     return(
         <div className='card'>
             <div className='Card-img'>
-                 <img src={img} alt="image" />
+                <a href={link} target="_blank" rel="noopener noreferrer"> <img src={img} alt="image" /></a>
             </div>
             <div className='Card-text'>
                 <h3>{title}</h3>
